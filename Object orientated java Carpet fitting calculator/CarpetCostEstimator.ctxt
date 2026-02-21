@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=aPrice\ aPostcode\ aFittingCost
+comment0.target=CarpetCostEstimator(java.lang.String,\ java.lang.String,\ double)
+comment0.text=\r\n\ Constructor\ for\ CarpetCostEstimator\ to\ take\ a\ single\ double\ argument.\r\n\ To\ set\ the\ instance\ variable\ labourCharge\ to\ the\ value\ of\ this\ argument.\r\n\ Whilst\ declaring\ the\ three\ instance\ variables\ and\ their\ types.\r\n
+comment1.params=
+comment1.target=double\ getPrice()
+comment1.text=\r\n\ Getter\ method\ for\ price\ as\ a\ double.\r\n
+comment2.params=
+comment2.target=double\ setPrice()
+comment2.text=\r\n\ Setter\ method\ for\ price\ as\ a\ double.\r\n
+comment3.params=
+comment3.target=double\ getLabourCharge()
+comment3.text=\r\n\ Getter\ method\ for\ labour\ charge\ as\ a\ double.\r\n
+comment4.params=
+comment4.target=double\ setLabourCharge()
+comment4.text=\r\n\ Setter\ method\ for\ labour\ charge\ as\ a\ double.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getPostCode()
+comment5.text=\r\n\ Getter\ method\ for\ postcode\ as\ a\ string.\r\n
+comment6.params=
+comment6.target=java.lang.String\ setPostCode()
+comment6.text=\r\n\ Setter\ method\ for\ postcode\ as\ a\ string.\r\n
+numComments=7
