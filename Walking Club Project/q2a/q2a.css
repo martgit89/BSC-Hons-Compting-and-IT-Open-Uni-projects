@@ -1,0 +1,155 @@
+/*For laptop/larger screen widths of 1024px max*/
+@media screen and (max-width: 64rem) {
+  body {
+    background-color:#e6f0ff;
+    background-image: url('Walker.jpg');
+    background-repeat: no-repeat;
+    background-size: 1024px 500px;
+    background-position:0px 300px;
+    color: black;
+  }
+
+/*Positioning, sizing, and font settings for the drop down menu box... hover over to see menu items.*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-position:600px 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.2rem;
+margin: 40px 40px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 12px;
+  z-index: 10;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+display-position:0px 0px
+}
+
+{box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/*Positioning, sizing, and font settings for the walk event calender, this section is for visual representation only.*/
+.days {
+  padding: 50px 50px;
+  width: 20%;
+  background: #e6fff2;
+  margin: 700px 100px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 10;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size:16px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white 
+}
+
+/*Positioning, sizing, and font settings for the OU walking club page title.*/
+h1 {
+  position: absolute;
+  font-size: 3rem;
+  left: 220px;
+  top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5rem 0;
+}
+
+/*Positioning, sizing, and font settings for Walk events section title.*/
+h2 {
+position: absolute;
+left: 200px;
+top: 280px;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*Positioning sizing, and font settings for walk event page info.*/
+div.relative {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 325px;
+  right: 540px;
+  width: 400px;
+  height: 210px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Positioning, sizing, and font settings for Upcoming walks page title.*/
+h3 {
+position: absolute;
+left: 660px;
+top: 720px;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*Positioning, sizing, and font settings for info of upcoming walks, along with overflow auto setting allowing page scrolling.*/
+.div1 {
+position: absolute;
+  top: 775px;
+  right: 70px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  overflow: auto;
+ }
+{box-sizing: border-box;}
+{
+position: absolute;
+    top: 290px;
+  right: 80px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+}
+
+/*Positioning, sizing, and font settings for suggest a walk section*/
+h4 {
+position: absolute;
+left: 770px;
+top: 240px;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*Positioning, sizing, and font settings for concept add walk section, this setion does not function and is for visual representation only.*/
+div.ex2 {
+  position: absolute;
+  top: 290px;
+  right: 80px;
+  background-color: #ffffb3;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.div2 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 51px;
+  height: 20px;
+  top: 500px;
+  right: 100px;
+  border: 2px solid black;
+}
+
+
+
+
+
+
+
